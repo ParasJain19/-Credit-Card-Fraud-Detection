@@ -43,10 +43,10 @@ The dataset used in this project is the **Creditcard_data.csv** file, which cont
 | Model               | Sample 1 | Sample 2 | Sample 3 | **Sample 4 (Best)** | Sample 5 |
 |---------------------|----------|----------|----------|---------------------|----------|
 | **Random Forest**    | 0.97     | 0.95     | 0.98     | **0.98**            | Not enough class representation |
-| **Logistic Regression** | 0.87     | 0.83     | 0.90     | **0.98**            | Not enough class representation |
-| **SVM**              | 0.68     | 0.48     | 0.66     | **0.98**            | Not enough class representation |
+| **Naive Bayes** | 0.80     | 0.83     | 0.86     | **0.98**            | Not enough class representation |
+| **XGBoost**              | 0.93     | 0.92     | 0.96     | **0.98**            | Not enough class representation |
 | **KNN**              | 0.77     | 0.73     | 0.75     | **0.98**            | Not enough class representation |
-| **Decision Tree**    | 0.90     | 0.87     | 0.94     | **0.98**            | Not enough class representation |
+| **Logistic Regression**    | 0.87     | 0.83     | 0.90     | **0.98**            | Not enough class representation |
 
 ## Notes:
 - **Sample 4 (Oversampling)** shows the highest accuracy for all models.
